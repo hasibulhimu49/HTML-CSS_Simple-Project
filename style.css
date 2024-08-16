@@ -1,0 +1,69 @@
+.root {
+  --background-color: azure;
+  --primary-color: black;
+  --secondary-color green;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/*Home Section Design*/
+.cardhome {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 200px;
+  background-image: url(./images/cover.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar li {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar li a {
+  display: block;
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/*About Section Design*/
+.cardabout {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 100px 16px;
+  border-radius: 10px;
+}
+
+/*Services Section Design*/
+.cardservices {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 100px 16px;
+  border-radius: 10px;
+}
+
+/*project Section Design*/
+.cardproject {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 100px 16px;
+  border-radius: 10px;
+}
+
+/*Contract Section Design*/
+.cardcontract {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 100px 16px;
+  border-radius: 10px;
+}
